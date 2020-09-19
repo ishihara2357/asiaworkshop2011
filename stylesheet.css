@@ -1,0 +1,153 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "YuGothic", "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.sub-container {
+    height: 30px;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background: linear-gradient(to top, rgba(211, 102, 79, 0.7) 0%,
+                rgba(254, 233, 126, 0.7) 100%),
+                url(./assets/AsiaWorkshop2011.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.top-wrapper p {
+   opacity: 0.7;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+/* header */
+header {
+    height: 60px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header-left {
+    float: left;
+}
+
+.menu-icon {
+    color: #a9a9a9;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    line-height: 60px;
+    padding: 0 20px;
+    color: #a9a9a9;
+    display: block;
+    float: left;
+    transition: all 0.5;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+}
+
+/* Schedule */
+table {
+    margin: 2px auto;
+    border: 1px solid #eee;
+}
+
+table thead th {
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+table td {
+    padding: 10px;
+    font-size: 14px;
+    width: 130px;
+    border-top: 1px solid #eee;
+
+}
+
+td img {
+    width: 40px;
+}
+
+.td-image {
+    text-align: center;
+}
+
+.td-date {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.td-topic {
+    width: 400px;
+}
+
+/* Footer */
+footer p {
+    color: #a9a9a9;
+    font-size: 14px;
+}
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
