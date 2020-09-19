@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: "YuGothic", "Hiragino Kaku Gothic ProN", sans-serif;
+    color: #483d8b;
 }
 
 a {
@@ -22,13 +23,15 @@ a {
     height: 30px;
 }
 
+.text-adjust {
+    padding: 0px 130px 0px 30px;
+}
+
 .top-wrapper {
     padding: 180px 0 100px 0;
-    background: linear-gradient(to top, rgba(211, 102, 79, 0.7) 0%,
-                rgba(254, 233, 126, 0.7) 100%),
-                url(./assets/AsiaWorkshop2011.jpg);
+    background: linear-gradient(to top, rgba(211, 102, 79, 0.7) 0%, rgba(254, 233, 126, 0.7) 100%), url(./assets/AsiaWorkshop2011.jpg);
     background-size: cover;
-    color: white;
+    color: #ffffff;
     text-align: center;
 }
 

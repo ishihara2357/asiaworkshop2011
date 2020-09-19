@@ -55,6 +55,10 @@
         font-size: 14px;
     }
 
+    .text-adjust {
+        padding: 0px 30px 0px 30px;
+    }
+
     .footer {
         text-align: center;
     }
